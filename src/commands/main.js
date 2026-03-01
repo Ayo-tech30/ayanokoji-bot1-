@@ -251,7 +251,7 @@ module.exports = {
     const userName = msg.pushName || sender.split('@')[0];
     const menuText = MENU_TEXT.replace('{user}', userName);
 
-    const imgPath = path.join(__dirname, '../../assets/delta.jpg');
+    const imgPath = path.join(__dirname, '../../assets/c7448c3f7f037d1d1c5e41df3a481cb2.jpg');
 
     if (fs.existsSync(imgPath)) {
       const imgBuffer = fs.readFileSync(imgPath);
